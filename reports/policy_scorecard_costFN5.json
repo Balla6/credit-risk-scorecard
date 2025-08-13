@@ -5,8 +5,9 @@
     "fp": 72,
     "tn": 68,
     "fn": 4,
-    "expected_cost_FN5_FP1": 92,
-    "accept_rate": 0.64
+    "flag_rate": 0.64,
+    "accept_rate": 0.36,
+    "expected_cost_FN5_FP1": 92
   },
   "test": {
     "threshold": 0.075,
@@ -14,7 +15,8 @@
     "fp": 72,
     "tn": 68,
     "fn": 6,
-    "expected_cost_FN5_FP1": 102,
-    "accept_rate": 0.63
+    "flag_rate": 0.63,
+    "accept_rate": 0.37,
+    "expected_cost_FN5_FP1": 102
   }
 }
