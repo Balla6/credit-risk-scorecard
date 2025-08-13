@@ -34,6 +34,11 @@
 - By **age**: youngest bucket **[0,25)** shows higher FPR (~0.82) and flag rate (~0.89).  
 - Artifact: `reports/fairness_slices_test.json`
 
+## Monitoring
+- **PSI (PD, valid→test): 0.068 — stable (< 0.10).**
+- Threshold guide: <0.10 stable · 0.10–0.25 watch · >0.25 investigate.
+- Source: `reports/psi_report.json`
+
 ## Risks & Limitations
 - Small dataset; estimates have variance.  
 - Slices are descriptive only; protected attributes should not be used as features in production.  
